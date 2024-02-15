@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.5);
+  }
+  
